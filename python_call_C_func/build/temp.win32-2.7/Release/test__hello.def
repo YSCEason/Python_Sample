@@ -1,0 +1,3 @@
+LIBRARY test__hello.pyd
+EXPORTS
+inittest__hello

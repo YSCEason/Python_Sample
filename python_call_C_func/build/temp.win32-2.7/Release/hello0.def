@@ -1,0 +1,3 @@
+LIBRARY hello0.pyd
+EXPORTS
+inithello0

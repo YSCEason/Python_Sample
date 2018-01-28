@@ -1,0 +1,51 @@
+dma_soft_rst = 1'h0
+soft_rst = 1'h0
+sw_trigger = 1'h0
+rd_dram_go = 1'h0
+cbm_en = 1'h0
+spi_wire = 1'h1
+spi_ms_sel = 1'h1
+spi_endian = 1'h0
+sck_free_mode = 1'h0
+spi_data_unit = 3'h7
+full_empty_gated_sck_en = 1'h1
+busy_func_en = 1'h0
+busy_gated_sck_en = 1'h1
+cs_level = 1'h0
+sck_park = 1'h1
+si_edge = 1'h1
+so_edge = 1'h0
+so_park = 1'h1
+busy_level = 1'h1
+busy_dir = 1'h0
+busy_out_edge = 1'h1
+spi_scenario = 3'h0
+tran_cycle_num = 16'h0
+interval_free_cycle_num = 16'h0
+interval_gated_cycle_num = 16'h0
+cs_setup_cycle_num = 16'h1
+cs_hold_cycle_num = 16'h1
+sck_freq = 16'hbb7C
+rx_fifo_al_full_th = 6'h30
+rx_fifo_al_empty_th = 6'h10
+tx_fifo_al_full_th = 6'h0
+tx_fifo_al_empty_th = 6'h0
+rx_fifo_dst = 1'h0
+tx_fifo_src = 1'h0
+dram_accumulate = 1'h0
+rx_bit_num = 23'h1ff
+tx_bit_num = 23'h0
+dst_ring_min_addr = 32'h0
+dst_ring_over_addr = 32'h0
+src_ring_min_addr = 32'h0
+src_ring_over_addr = 32'h0
+src_start_addr = 32'h0
+src_spi_unit_num = 23'h0
+dst_start_addr = 32'h0
+dst_spi_unit_num = 23'h3f
+cbm_status_reg = 16'h0
+
+SW_CONFIG
+sw_data_pattern_type = 32'h1
+
+end_of_file
